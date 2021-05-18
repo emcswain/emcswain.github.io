@@ -1,0 +1,73 @@
+/*CSS DOCUMENT*/
+article {
+	margin: 1.0em;
+}
+
+.logo {
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 30%;
+	 padding-top: 1.0em;
+}
+
+img {
+    width: 100%; 
+}
+
+header {
+	background-color: #363c50;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	display:inline;
+	list-style-type:none;
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5em;
+	margin-right: 1.0em;
+}
+
+nav ul li a {
+	color:#fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color:#545e7a;
+}
+
+.headings {
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #363c50;
+}
+
+.itemtype {
+	font-family: chaparral-pro, serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+h4 {
+	
+	font-family: chaparral-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+p{
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+li {
+	list-style:none;
+}
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
