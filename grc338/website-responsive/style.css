@@ -1,0 +1,133 @@
+/*CSS DOCUMENT*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*I spent a long time struggling to figure out how to get the logo inline with the navigation itms. I couldn't seperate the logo and nav as two columns/rows. I will need  to come to office hours about this...*/
+
+h1 {
+	width: 35%;
+	padding-top: 1.5em;
+	padding-left: 1.5em;
+	padding-bottom: .3em;
+}
+
+img.width {
+    width: 100%; 
+}
+
+div.container {
+	display: grid;
+}
+
+header {
+	background-color: #363c50;
+	height: 13.5em;
+}
+
+nav ul li {
+	display:inline;
+	list-style-type:none;
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5em;
+
+	padding-left: 1.8em;
+}
+
+nav ul li a {
+	color:#fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color:#9aaad8;
+}
+
+ol, ul, li {
+	list-style: none;
+}
+
+article {
+	margin: 1.2em;
+}
+
+figure {
+	padding-bottom: 1.2em;
+	margin: 0;
+}
+
+.headings {
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.8em;
+	color: #363c50;
+	padding-bottom: .3em;
+}
+
+.itemtype {
+	font-family: chaparral-pro, serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 1.4em;
+	padding-top: .4em;
+	padding-bottom: .3em;
+}
+	
+h4 {
+	
+	font-family: chaparral-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+p{
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.addresspadding {
+	padding-bottom: 1em;
+}
+
+.pricepadding {
+	padding-bottom: 1.8em;
+}
+
+
+@media screen and (min-width: 50em) {
+	article.container {
+		display:grid;
+		grid-gap: 0 2em;
+		grid-template-columns: 2fr 1fr;
+	}
+	.queryimage {
+		width:48em;
+	}
+	}
